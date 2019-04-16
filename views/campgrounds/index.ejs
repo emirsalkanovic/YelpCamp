@@ -13,13 +13,13 @@
 
 <div class="row text-center" style="display:flex; flex-wrap:wrap;">
     <div class="col-lg-12">
-        <h3>Our Most Popular Stories</h3>
+        <h3 class="h-main">Our Most Popular Stories</h3>
     </div>
 
 <% campgrounds.forEach(function(campground){ %>
 <div class="col-md-3 col-sm-6">
     <div class="thumbnail">
-        <img src="<%= campground.image %>">
+        <img class ="img-main" src="<%= campground.image %>">
         <div class="caption">
             <h4><%= campground.name %></h4>
         </div>
